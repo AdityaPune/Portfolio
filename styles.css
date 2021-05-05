@@ -86,13 +86,15 @@ h3 {
   color: #fff;
 }
 
-a:link {
+a:link,
+a:visited {
   color: #fff;
   background-color: transparent;
   text-decoration: none;
 }
 
-a:hover {
+a:hover,
+a:focus {
   color: #d5ad25;
   background-color: transparent;
   text-decoration: underline;
@@ -100,9 +102,6 @@ a:hover {
 
 strong {
   font-weight: 600;
-}
-
-.section__title {
 }
 
 .section__title--intro {
@@ -138,9 +137,15 @@ strong {
 }
 
 #first {
-  vertical-align: center;
+  align-content: center;
+  text-align: center;
 }
 
 .list > a > img {
   display: inline-block;
+}
+
+#view_resume {
+  text-align: center;
+  align-content: center;
 }
