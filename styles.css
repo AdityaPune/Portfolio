@@ -143,6 +143,10 @@ strong {
   text-align: center;
 }
 
+#first div.list h4 {
+  margin: 17px;
+}
+
 .list > a > img {
   display: inline-block;
 }
@@ -159,6 +163,7 @@ strong {
 #proj-heading {
   text-align: center;
   margin-bottom: 3rem;
+  font-family: "Open Sans", sans-serif;
 }
 
 .items-container {
@@ -171,19 +176,31 @@ strong {
 .inner {
   display: inline-block;
   width: 25rem;
-  border: 2px #fff;
+  border: 1px #969079;
   border-style: solid;
+  border-radius: 15px;
   flex-basis: auto;
   flex-shrink: 1;
+  text-align: center;
+  line-height: 1.5;
   margin: 5px;
   padding: 0.5rem;
+  font-family: "Open Sans", sans-serif;
 }
 
 .inner h3 {
-  font-size: 1.15rem;
-  justify-content: center;
+  font-size: 1.2rem;
+  display: inline-block;
+  text-align: center;
   margin-bottom: 10px;
+  font-family: "Open Sans", sans-serif;
 }
 .inner p {
-  font-size: 0.8rem;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 10px;
+}
+
+a#view-more {
+  margin-top: 100px;
 }
