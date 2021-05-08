@@ -186,6 +186,7 @@ strong {
   margin: 5px;
   padding: 0.5rem;
   font-family: "Open Sans", sans-serif;
+  justify-content: space-around;
 }
 
 .inner h3 {
@@ -196,11 +197,12 @@ strong {
   font-family: "Open Sans", sans-serif;
 }
 .inner p {
-  font-size: 1rem;
+  font-size: 0.95rem;
   font-family: "Open Sans", sans-serif;
   margin-top: 10px;
 }
 
-a#view-more {
-  margin-top: 100px;
+.viewgithub {
+  display: flex;
+  align-items: center;
 }
