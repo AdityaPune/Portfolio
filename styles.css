@@ -51,7 +51,7 @@ h3 {
     margin-left: 8%;
     margin-right: 8%;
     text-align: center;
-    height: 100vh;
+    height: auto;
   }
 
   #uno {
@@ -143,9 +143,11 @@ strong {
   background-image: url("img/background.jpg");
 }
 */
+
 #background-picture {
-  width: auto;
-  height: auto;
+  width: 98.5vw;
+  height: 150vh;
+  overflow: hidden;
 }
 
 #first {
@@ -167,6 +169,8 @@ strong {
 
 #first div.list h4 {
   margin: 17px;
+  font-size: 1.3rem;
+  font-weight: 900;
 }
 
 .list > a > img {
@@ -180,6 +184,7 @@ strong {
 
 .project {
   margin-top: 60px;
+  margin-bottom: 40px;
 }
 
 #proj-heading {
@@ -227,4 +232,5 @@ strong {
   margin-top: 20px;
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
