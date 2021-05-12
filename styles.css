@@ -23,10 +23,10 @@ h1,
 h2,
 h3 {
   line-height: 1;
-  margon: 0;
+  margin: 0;
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 600px) {
   /*
     h1{ font-size:48px;}
     h2{ font-size:30px;}
@@ -46,8 +46,72 @@ h3 {
   p {
     font-size: 18px;
   }
+  .container-intro {
+    padding: 5em 2em;
+    text-align: center;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #uno {
+    display: block;
+    width: 100vw;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .img-fluid {
+    margin: auto;
+  }
+
+  #dos {
+    width: 100vw;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
-@media screen and (min-width: 1021px) {
+@media screen and (min-width: 601px) and (max-width: 850px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 35px;
+  } /*4, 3.75, 1.5*/
+  h3 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 20px;
+  }
+  .container-intro {
+    padding: 5em 2em;
+    text-align: center;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #uno {
+    width: 50vw;
+  }
+  .img-fluid {
+    float: right;
+    padding-right: 4rem;
+  }
+
+  #dos {
+    width: 50vw;
+    flex-shrink: 1;
+  }
+}
+
+@media screen and (min-width: 851px) {
   h1 {
     font-size: 60px;
   }
@@ -60,27 +124,28 @@ h3 {
   p {
     font-size: 20px;
   }
-}
+  .container-intro {
+    padding: 5em 2em;
+    text-align: center;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 
-.container-intro {
-  padding: 5em 2em;
-  text-align: center;
-  height: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
+  #uno {
+    width: 50vw;
+  }
+  .img-fluid {
+    float: right;
+    padding-right: 4rem;
+  }
 
-#uno {
-  width: 50vw;
-}
-.img-fluid {
-  float: right;
-  padding-right: 4rem;
-}
-
-#dos {
-  width: 50vw;
+  #dos {
+    width: 50vw;
+    flex-shrink: 1;
+  }
 }
 
 #socials li {
