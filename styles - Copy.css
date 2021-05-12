@@ -46,6 +46,18 @@ h3 {
   p {
     font-size: 18px;
   }
+  #home {
+    padding: 5em 2em;
+    margin-left: 8%;
+    margin-right: 8%;
+    text-align: center;
+    height: auto;
+  }
+
+  #uno {
+    display: block;
+    justify-content: center;
+  }
 }
 @media screen and (min-width: 1021px) {
   h1 {
@@ -60,27 +72,13 @@ h3 {
   p {
     font-size: 20px;
   }
-}
 
-.container-intro {
-  padding: 5em 2em;
-  text-align: center;
-  height: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-#uno {
-  width: 50vw;
-}
-.img-fluid {
-  float: right;
-  padding-right: 4rem;
-}
-
-#dos {
-  width: 50vw;
+  #home {
+    height: 100vh;
+    padding: 5em 2em;
+    margin-left: 8%;
+    margin-right: 8%;
+  }
 }
 
 #socials li {
