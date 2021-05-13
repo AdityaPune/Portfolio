@@ -73,23 +73,37 @@ h3 {
     padding-left: 1rem;
     padding-right: 1rem;
   }
+
+  .social {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    padding-right: 3rem;
+    justify-content: center;
+  }
+
+  .social li {
+    margin: 0.5rem;
+    size: 20px;
+  }
 }
 @media screen and (min-width: 601px) and (max-width: 850px) {
   h1 {
-    font-size: 40px;
+    font-size: 35px;
   }
   h2 {
-    font-size: 35px;
+    font-size: 30px;
   } /*4, 3.75, 1.5*/
   h3 {
-    font-size: 25px;
+    font-size: 22px;
   }
   p {
-    font-size: 20px;
+    font-size: 16px;
   }
   .container-intro {
     padding: 5em 2em;
-    text-align: center;
+    text-align: left;
     min-height: 100vh;
     height: auto;
     display: flex;
@@ -98,6 +112,7 @@ h3 {
   }
 
   #uno {
+    margin-top: 2rem;
     width: 50vw;
   }
   .img-fluid {
@@ -108,6 +123,25 @@ h3 {
   #dos {
     width: 50vw;
     flex-shrink: 1;
+  }
+
+  .social {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    padding-left: -2rem;
+    padding-right: 3rem;
+    justify-content: center;
+  }
+
+  .social li {
+    margin: 0.1rem;
+    size: 20px;
+  }
+  .key-skills {
+    list-style-type: none;
+    size: 30px;
   }
 }
 
@@ -126,7 +160,7 @@ h3 {
   }
   .container-intro {
     padding: 5em 2em;
-    text-align: center;
+    text-align: left;
     min-height: 100vh;
     height: auto;
     display: flex;
@@ -146,12 +180,24 @@ h3 {
     width: 50vw;
     flex-shrink: 1;
   }
-}
+  .social {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    padding-right: 3rem;
+    justify-content: left;
+  }
 
-#socials li {
-  display: inline-block;
-  padding-left: 0.8em;
-  color: #fff;
+  .social li {
+    margin: 0.5rem;
+    size: 20px;
+  }
+
+  .key-skills {
+    list-style-type: none;
+    size: 30px;
+  }
 }
 
 a:link,
