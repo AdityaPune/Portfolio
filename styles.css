@@ -319,7 +319,7 @@ strong {
 
 /* Hide the images by default */
 .mySlides {
-  display: none;
+  display: ruby;
 }
 
 /* Next & previous buttons */
@@ -388,17 +388,17 @@ strong {
   background-color: #717171;
 }
 
-/* Fading animation */
+/* Fading animation 
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 9.5s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 9.5s;
 }
 
 @-webkit-keyframes fade {
   from {
-    opacity: 0.4;
+    opacity: 0.8;
   }
   to {
     opacity: 1;
@@ -407,11 +407,33 @@ strong {
 
 @keyframes fade {
   from {
-    opacity: 0.4;
+    opacity: 0.8;
   }
   to {
     opacity: 1;
   }
+}
+*/
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.carousel-item img {
+  height: 40%;
+  width: 100%;
+}
+
+.carousel-caption {
+  background-color: #544f4f;
+  color: white;
+  width: 100%;
+  /*left:0;*/
+}
+
+.carousel-indicators {
+  margin-bottom: 10px;
 }
 
 .highlight {
