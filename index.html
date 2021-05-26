@@ -4,12 +4,11 @@
     <title>Aditya Khochare Portfolio</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="black" />
-    <script>document.getElementsByTagName("html")[0].className += " js";</script>
+    <script>
+      document.getElementsByTagName("html")[0].className += " js";
+    </script>
 
     <!-- Bootstrap CSS -->
     <link
@@ -31,6 +30,13 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@300&family=Source+Sans+Pro:wght@200&display=swap"
       rel="stylesheet"
     />
+
+    <!--Animations-->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
   </head>
 
   <body>
@@ -38,72 +44,79 @@
 
     <section class="intro" id="home">
       <div class="container-intro">
-          <div class="picture" id="uno">
-            <img
-              src="img/portfolio_pic.png"
-              class="img-fluid"
-              alt="Me not smiling"
-            />
+        <div class="picture" id="uno">
+          <img
+            src="img/portfolio_pic.png"
+            class="img-fluid"
+            alt="Me not smiling"
+          />
+        </div>
+        <div class="bio" id="dos">
+          <h2
+            class="
+              section__title section__title--intro
+              animate_animated animate__backInDown
+            "
+            id="name"
+          >
+            Aditya Khochare
+          </h2>
+          <h3
+            class="section__subtitle section__subtitle--intro"
+            id="profession"
+          >
+            Software Engineer
+          </h3>
+          <p class="major">
+            Fun to work with. Like learning new things from my peers as much as
+            helping others solve their problems.
+            <br /><br />
+            Applying my conceptual understanding to tangible products that can
+            help solve modern societal issues drives me
+            <br />
+          </p>
+          <li class="key-skills">
+            Data Structures | Algorithms | Machine Learning
+          </li>
+          <li class="key-skills">
+            Web Development | Microservices | DevOps &amp; Cloud
+          </li>
+          <p></p>
+          <div id="socials">
+            <ul class="social">
+              <li>
+                <a href="mailto:adityakho999@gmail.com" target="_blank"
+                  ><i class="far fa-envelope fa-1.5x"></i
+                  ><span class="label"></span
+                ></a>
+                <a href="mailto:adityakho999@gmail.com" target="_blank"
+                  >Email
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/aditya-khochare-599128179/"
+                  target="_blank"
+                  ><i class="fab fa-linkedin"></i><span class="label"></span
+                ></a>
+                <a
+                  href="https://www.linkedin.com/in/aditya-khochare-599128179/"
+                  target="_blank"
+                  >LinkedIn
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/AdityaPune" target="_blank"
+                  ><i class="fab fa-github-square"></i
+                  ><span class="label"></span
+                ></a>
+                <a href="https://github.com/AdityaPune" target="_blank"
+                  >GitHub</a
+                >
+              </li>
+            </ul>
           </div>
-          <div class="bio" id="dos">
-            <h2 class="section__title section__title--intro" id="name">
-              Aditya Khochare
-            </h2>
-            <h3
-              class="section__subtitle section__subtitle--intro"
-              id="profession"
-            >
-              Software Engineer
-            </h3>
-            <p class="major">
-              Fun to work with. Like learning new things
-              from my peers as much as helping others solve their problems.
-              <br /><br />
-              Applying my conceptual understanding to tangible products that can
-              help solve modern societal issues drives me
-              <br />
-            </p>
-            <li class="key-skills" >
-              Data Structures | Algorithms | Machine Learning
-            </li>
-            <li class="key-skills">
-              Web Development | Microservices | DevOps &amp; Cloud
-            </li>
-            <p></p>
-            <div id="socials">
-              <ul class="social">
-                <li>
-                  <a href="mailto:adityakho999@gmail.com" target="_blank"
-                    ><i class="far fa-envelope fa-1.5x"></i><span class="label"></span
-                  ></a>
-                  <a href="mailto:adityakho999@gmail.com" target="_blank"
-                    >Email      </a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="https://www.linkedin.com/in/aditya-khochare-599128179/"
-                    target="_blank"
-                    ><i class="fab fa-linkedin"></i><span class="label"></span
-                  ></a>
-                  <a
-                    href="https://www.linkedin.com/in/aditya-khochare-599128179/"
-                    target="_blank"
-                    >LinkedIn      </a
-                  >
-                </li>
-                <li>
-                  <a href="https://github.com/AdityaPune" target="_blank"
-                    ><i class="fab fa-github-square"></i
-                    ><span class="label"></span
-                  ></a>
-                  <a href="https://github.com/AdityaPune" target="_blank"
-                    >GitHub</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
+        </div>
       </div>
     </section>
 
@@ -111,7 +124,7 @@
 
     <section class="skills">
       <div class="container-skills" id="first">
-        <h2 style="padding-bottom: 1rem; color: #ECEAE7;">Skills</h2>
+        <h2 style="padding-bottom: 1rem; color: #eceae7">Skills</h2>
         <div class="list">
           <h4>Programming languages, Web technologies &amp; frameworks</h4>
           <a href="https://www.python.org/" target="_blank">
@@ -293,7 +306,7 @@
         </div>
         <br />
         <a
-          href="https://drive.google.com/file/d/1pTD1Y8Sirmbj62VX7vVGPpPtxtVA5v_s/view?usp=sharing"
+          href="https://drive.google.com/file/d/13S_j6wKD_JKgLDsMsZXLx5W8N_3C-usw/view?usp=sharing"
           target="_blank"
           ><button type="button" class="btn btn-outline-secondary">
             View Resume
@@ -307,41 +320,46 @@
     <div class="high-container">
       <h2 class="highlight">Highlights</h2>
     </div>
-    
+
     <section class="slideshow-section">
       <div class="carousel-container">
-        <div class="carousel slide" data-ride="carousel", id = "carousel" data-interval="3000" data-pause="hover">
+        <div
+          class="carousel slide"
+          data-ride="carousel"
+          ,
+          id="carousel"
+          data-interval="3000"
+          data-pause="hover"
+        >
           <div class="carousel-inner">
-              <div class="carousel-item active">
-                  <img src = "img/SIH-solo.jpeg" >
-                  <div class="carousel-caption d-none d-md-block">   
-                      <h3>Smart India Hackathon (2019 Software)</h3>
-                  </div>
+            <div class="carousel-item active">
+              <img src="img/SIH-solo.jpeg" />
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Smart India Hackathon (2019 Software)</h3>
               </div>
-              <div class="carousel-item">
-                  <img src = "img/AQI-photo.jpeg" >
-                  <div class="carousel-caption d-none d-md-block">
-                      <h3>Felicitated by the Executive President</h3>
-                  </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/AQI-photo.jpeg" />
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Felicitated by the Executive President</h3>
               </div>
-              <div class="carousel-item">
-                  <img src = "img/SIH-2019.jpeg" >
-                  <div class="carousel-caption d-none d-md-block">  
-                      <h3>SIH Dias</h3>
-                  </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/SIH-2019.jpeg" />
+              <div class="carousel-caption d-none d-md-block">
+                <h3>SIH Dias</h3>
               </div>
-              <div class="carousel-item">
-                <img src = "img/paper-resized.jpg" >
-                <div class="carousel-caption d-none d-md-block">  
-                    <h3>Newspaper Article</h3>
-                </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/paper-resized.jpg" />
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Newspaper Article</h3>
+              </div>
             </div>
           </div>
-          
+        </div>
       </div>
-    </div>
     </section>
-    
 
     <section class="project">
       <div class="proj-class">
@@ -360,7 +378,7 @@
               <p>
                 WebApp for SKF (Ball-bearing Mfr), their clients and suppliers
                 to track status of their orders and get timely updates
-                <br><br>
+                <br /><br />
                 First Place (₹ 75000) Software Edition
               </p>
             </div>
@@ -377,7 +395,7 @@
               <p>
                 Android Application that hourly updates the AQI of Pune City via
                 the particulate matter density in the atmosphere
-                <br><br>
+                <br /><br />
                 Google Play - Rating of 4.6
               </p>
             </div>
@@ -393,8 +411,8 @@
               </h3>
               <p>
                 A Two-fold Deep Learning based application to detect potholes in
-                real time. Research Paper published in IEEE 
-                <br><br>
+                real time. Research Paper published in IEEE
+                <br /><br />
                 Won Best Paper award at IEEE PuneCon 2019
               </p>
             </div>
@@ -406,7 +424,7 @@
                   >OwlCalls application</a
                 >
               </h3>
-              <p>                
+              <p>
                 A Deep Learning application that detects owls on the basis of
                 their call for helping studies examining biodiversity of regions
               </p>
@@ -421,7 +439,8 @@
                 /></a>
               </h3>
               <p>
-                An NLP application for Automobile companies to classify customer query into labels such as complaint, feedback, and, so on.
+                An NLP application for Automobile companies to classify customer
+                query into labels such as complaint, feedback, and, so on.
               </p>
             </div>
           </section>
@@ -434,9 +453,9 @@
                 /></a>
               </h3>
               <p>
-                WebApp that calculates the University's Carbon
-                Emissions through activities such as Fuels burned in Labs and
-                Canteens, University owned vehicles and so on.
+                WebApp that calculates the University's Carbon Emissions through
+                activities such as Fuels burned in Labs and Canteens, University
+                owned vehicles and so on.
               </p>
             </div>
           </section>
@@ -451,143 +470,171 @@
       >
     </section>
 
-  <h2 class="work_exp">Experience</h2>
-  <section class="timeline-section">
-    <div class="container_timeline">
-      <div class="timeline">        
-        <ul>
-          <li>
-            <div class="timeline-content">
-              <h3 class="date">June - September 2020</h3>
-              <h1>Chatur Ullu Labs</h1>
-              <h3 style="font-size: 1.25rem; color: #89837B;">Deep Learning Intern</h3>
-              <p></p>
-              <p>Developed a solution for recognizing Owl Calls in the dark. Worked on <span style="font-weight: 600;">Conv2D, LSTM</span> models and learned various Digital Signal Preprocessing techniques</p>
-              <p><span style="font-weight: 600;">ANN, TensorFlow, Keras</span></p>
-              <a href="https://github.com/AdityaPune/Owl-Project" target="_blank"><i class="fab fa-github-square"></i><span class="label"></span
+    <h2 class="work_exp">Experience</h2>
+    <section class="timeline-section">
+      <div class="container_timeline">
+        <div class="timeline">
+          <ul>
+            <li>
+              <div class="timeline-content">
+                <h3 class="date">June - September 2020</h3>
+                <h1>Chatur Ullu Labs</h1>
+                <h3 style="font-size: 1.25rem; color: #89837b">
+                  Deep Learning Intern
+                </h3>
+                <p></p>
+                <p>
+                  Developed a solution for recognizing Owl Calls in the dark.
+                  Worked on
+                  <span style="font-weight: 600">Conv2D, LSTM</span> models and
+                  learned various Digital Signal Preprocessing techniques
+                </p>
+                <p>
+                  <span style="font-weight: 600">ANN, TensorFlow, Keras</span>
+                </p>
+                <a
+                  href="https://github.com/AdityaPune/Owl-Project"
+                  target="_blank"
+                  ><i class="fab fa-github-square"></i
+                  ><span class="label"></span
                 ></a>
-                <a href="https://github.com/AdityaPune/Owl-Project" target="_blank"
+                <a
+                  href="https://github.com/AdityaPune/Owl-Project"
+                  target="_blank"
                   >GitHub</a
                 >
-            </div>
-          </li>   
-          <li>
-            <div class="timeline-content">
-              <h3 class="date">July - December 2019</h3>
-              <h1>Smart Campus Cloud Network</h1>
-              <h3 style="font-size: 1.25rem; color: #89837B;">Web Dev Intern</h3>
-              <p></p>
-              <p>Launched a portal for Universities which helps them to calculate their Carbon Footprint left behind through various activities such as Fuels burned and Electricity used </p>
-              <p><span style="font-weight: 600;">HTML, CSS, BootStrap, JavaScript</span></p>
-              <a href="https://github.com/AdityaPune/" target="_blank"><i class="fab fa-github-square"></i><span class="label"></span
+              </div>
+            </li>
+            <li>
+              <div class="timeline-content">
+                <h3 class="date">July - December 2019</h3>
+                <h1>Smart Campus Cloud Network</h1>
+                <h3 style="font-size: 1.25rem; color: #89837b">
+                  Web Dev Intern
+                </h3>
+                <p></p>
+                <p>
+                  Launched a portal for Universities which helps them to
+                  calculate their Carbon Footprint left behind through various
+                  activities such as Fuels burned and Electricity used
+                </p>
+                <p>
+                  <span style="font-weight: 600"
+                    >HTML, CSS, BootStrap, JavaScript</span
+                  >
+                </p>
+                <a href="https://github.com/AdityaPune/" target="_blank"
+                  ><i class="fab fa-github-square"></i
+                  ><span class="label"></span
                 ></a>
                 <a href="https://github.com/AdityaPune/" target="_blank"
                   >GitHub</a
                 >
-            </div>
-          </li>                 
-        </ul>
-      </div>
-    </div>
-  </section>
-
-
-  <h2 class="acad_exp">Academics</h2>
-  <section class="academic-section">
-    <div class="container_timeline">
-      <div class="timeline">        
-        <ul>
-          <li>
-            <div class="timeline-content">
-              <h3 class="date">August 2017 - June 2021</h3>
-              <h1>MIT, Pune</h1>
-              <p><span style="font-weight: 600;">Freshman Year Scholarship</span> for exemplary performance in Common Entrance Test(CET), Maharashtra</p>
-              <p>CGPA(scale of 10) : 9.18 </p>
-            </div>
-          </li>
-          <li>
-            <div class="timeline-content">
-              <h3 class="date">July 2015 - March 2017</h3>
-              <h1>P.Jog Junior College, Pune</h1>
-              <p>Performed well in State and National examinations like CET, JEE Mains, BITS</p>
-              <p>Result : 72.92%</p>
-            </div>
-          </li>
-          <li>
-            <div class="timeline-content">
-              <h3 class="date">March 2013 - March 2015</h3>
-              <h1>BVB, Pune</h1>
-              <p>Completed my schooling here, good times.</p>
-              <p>Result : 93.20%</p>
-            </div>
-          </li>          
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <section class="contact-me">
-    <div class="contact-container">
-      <h2>Drop me a message</h2>
-      <div class="row100">
-        <div class="col">
-          <div class="inputBox">
-            <input type="text" name="" required="required">
-            <span class="text">Name</span>
-            <span class="line"></span>
-          </div>          
-        </div>
-        <div class="col">
-          <div class="inputBox">
-            <input type="email" name="" required="required">
-            <span class="text">Email</span>
-            <span class="line"></span>
-          </div>          
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
-      <div class="row100">
-        <div class="col">
-          <div class="inputBox textarea">
-            <textarea required="required"></textarea>
-            <span class="text">Message</span>
-            <span class="line"></span>
-          </div>          
+    </section>
+
+    <h2 class="acad_exp">Academics</h2>
+    <section class="academic-section">
+      <div class="container_timeline">
+        <div class="timeline">
+          <ul>
+            <li>
+              <div class="timeline-content">
+                <h3 class="date">August 2017 - June 2021</h3>
+                <h1>MIT, Pune</h1>
+                <p>
+                  <span style="font-weight: 600"
+                    >Freshman Year Scholarship</span
+                  >
+                  for exemplary performance in Common Entrance Test(CET),
+                  Maharashtra
+                </p>
+                <p>CGPA(scale of 10) : 9.18</p>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-content">
+                <h3 class="date">July 2015 - March 2017</h3>
+                <h1>P.Jog Junior College, Pune</h1>
+                <p>
+                  Performed well in State and National examinations like CET,
+                  JEE Mains, BITS
+                </p>
+                <p>Result : 72.92%</p>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-content">
+                <h3 class="date">March 2013 - March 2015</h3>
+                <h1>BVB, Pune</h1>
+                <p>Completed my schooling here, good times.</p>
+                <p>Result : 93.20%</p>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
-        <div class="row100 submit-class">
+    </section>
+
+    <section class="contact-me">
+      <div class="contact-container">
+        <h2>Drop me a message</h2>
+        <div class="row100">
           <div class="col">
-            <input type="submit" value="Send">
+            <div class="inputBox">
+              <input type="text" name="" required="required" />
+              <span class="text">Name</span>
+              <span class="line"></span>
+            </div>
+          </div>
+          <div class="col">
+            <div class="inputBox">
+              <input type="email" name="" required="required" />
+              <span class="text">Email</span>
+              <span class="line"></span>
+            </div>
           </div>
         </div>
-    </div>
-    
-  </section>
+        <div class="row100">
+          <div class="col">
+            <div class="inputBox textarea">
+              <textarea required="required"></textarea>
+              <span class="text">Message</span>
+              <span class="line"></span>
+            </div>
+          </div>
+        </div>
+        <div class="row100 submit-class">
+          <div class="col">
+            <input type="submit" value="Send" />
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <script>
- 
-  
-  
-      </script>
+    <script></script>
 
-      <!-- Optional JavaScript -->
-      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-      <script
-        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"
-      ></script>
-      <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"
-      ></script>
-      <script
-        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"
-      ></script>
-    </p>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
     <script src="js/main.js"></script>
-
   </body>
 </html>
