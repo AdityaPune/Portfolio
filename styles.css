@@ -77,13 +77,17 @@ h3 {
     padding-left: 1rem;
     padding-right: 1rem;
   }
+  .key-skills {
+    list-style-type: none;
+    size: 2rem;
+  }
 
   .social {
     list-style-type: none;
     display: flex;
     flex-direction: row;
     color: #fff;
-    padding-right: 3rem;
+    margin-right: 1.5rem;
     justify-content: center;
     font-family: "Open Sans", sans-serif;
   }
@@ -131,24 +135,29 @@ h3 {
     flex-shrink: 1;
   }
 
+  #socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0;
+  }
+
   .social {
     list-style-type: none;
     display: flex;
     flex-direction: row;
     color: #fff;
-    padding-left: -2rem;
-    padding-right: 3rem;
-    justify-content: center;
+    justify-content: flex-start;
     font-family: "Open Sans", sans-serif;
+    padding: 0;
   }
 
   .social li {
-    margin: 0.1rem;
-    size: 20px;
+    margin-right: 10px;
   }
   .key-skills {
     list-style-type: none;
-    size: 30px;
+    font-size: 14px;
   }
 }
 
@@ -189,16 +198,24 @@ h3 {
     flex-shrink: 1;
     padding-right: 5rem;
   }
+
+  #socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0;
+  }
+
   .social {
     list-style-type: none;
     display: flex;
     flex-direction: row;
     color: #fff;
-    padding-right: 3rem;
-    justify-content: left;
-    align-items: flex-start;
-    float: left;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: none;
     font-family: "Open Sans", sans-serif;
+    padding: 0;
   }
 
   .social li {
